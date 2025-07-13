@@ -69,3 +69,36 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 API docs available at http://127.0.0.1:8000/docs
 ```
+🔑 API Authentication
+Auth is handled via OAuth2 Password Flow using form-data.
+After logging in, use the returned JWT token as a Bearer token in headers:
+```bash
+Authorization: Bearer <your_token>
+```
+🧪 Testing the API
+You can test endpoints via:
+
+🔥 Swagger UI at /docs
+
+🧪 Thunder Client or Postman
+
+
+📂 Project Structure
+```bash
+
+app/
+├── main.py               # FastAPI entry point
+├── models.py             # SQLAlchemy models
+├── schemas.py            # Pydantic schemas
+├── crud.py               # Database operations
+├── routes/               # API route definitions
+├── auth/                 # Auth & token logic
+└── database.py           # DB config
+```
+📬 Contact
+Vinayak Khandelwal
+📧 [khandelwalvinayak84@gmail.com]
+🌐https://www.linkedin.com/in/vinayak-khandelwal-b3216425a/
+
+🪪 License
+This project is licensed under the MIT License.
