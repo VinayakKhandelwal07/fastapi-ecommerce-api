@@ -70,7 +70,9 @@ uvicorn app.main:app --reload
 API docs available at http://127.0.0.1:8000/docs
 ```
 🔑 API Authentication
+
 Auth is handled via OAuth2 Password Flow using form-data.
+
 After logging in, use the returned JWT token as a Bearer token in headers:
 ```bash
 Authorization: Bearer <your_token>
