@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code config
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# SQLite and database files
+*.db
+*.sqlite3
+
+# Test and coverage reports
+htmlcov/
+.coverage
+.tox/
+.noseids
+.pytest_cache/
+
+# Logs
+*.log
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pip freeze output
+requirements.txt.lock
