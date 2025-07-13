@@ -51,21 +51,7 @@ This project demonstrates a solid understanding of modern backend design, includ
 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/fastapi-ecommerce-api.git
+git clone https://github.com/VinayakKhandelwal07/fastapi-ecommerce-api.git
 cd fastapi-ecommerce-api
 
-2. Create and Activate Virtual Environment
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-3. Install Requirements
-bash
-Copy code
-pip install -r requirements.txt
-4. Run the Server
-bash
-Copy code
-uvicorn app.main:app --reload
-API docs available at http://127.0.0.1:8000/docs
 
