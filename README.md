@@ -96,9 +96,13 @@ app/
 └── database.py           # DB config
 ```
 📬 Contact
+
 Vinayak Khandelwal
+
 📧 [khandelwalvinayak84@gmail.com]
+
 🌐https://www.linkedin.com/in/vinayak-khandelwal-b3216425a/
 
 🪪 License
+
 This project is licensed under the MIT License.
